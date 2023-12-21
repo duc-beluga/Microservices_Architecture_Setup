@@ -8,7 +8,7 @@
 ```choco install -y -g skaffold```
 ## [Install Google CLI/SDK](https://cloud.google.com/sdk/docs/install-sdk)
 ## [Install gke-gcloud-auth-plugin](https://cloud.google.com/blog/products/containers-kubernetes/kubectl-auth-changes-in-gke)
-## [Google Cloud Configurations. Set Kubernetes Context]
+## [Google Cloud Configurations. Set Kubernetes Context](https://cloud.google.com/blog/products/containers-kubernetes/kubectl-auth-changes-in-gke)
 ```
 gcloud auth login
 gcloud init
