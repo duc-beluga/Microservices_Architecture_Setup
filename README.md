@@ -38,8 +38,23 @@ Kubernette:
 Docker:
 
 ```docker build -t <dockerID>/<imageName> .```
-
-
+## Files Architecture
+auth (microservice 1)\
+  node_modules\
+  src\
+    index.ts
+  .dockerignore
+  Dockerfile
+  package.json
+  package-lock.json
+  tsconfig.json
+infra\
+  k8s\
+    auth-depl.yaml
+    auth-srv.yaml
+    ingress-srv.yaml
+skaffold.yaml
+infra\
 
 
 
